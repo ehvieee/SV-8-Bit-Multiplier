@@ -1,0 +1,7 @@
+Running: xsim.dir/TB_vedicMultiplier_behav/xsimk.exe -simmode gui -wdb TB_vedicMultiplier_behav.wdb -simrunnum 0 -socket 54794
+Design successfully loaded
+Design Loading Memory Usage: 8852 KB (Peak: 8852 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 9380 KB (Peak: 9380 KB)
+Simulation CPU Usage: 0 ms

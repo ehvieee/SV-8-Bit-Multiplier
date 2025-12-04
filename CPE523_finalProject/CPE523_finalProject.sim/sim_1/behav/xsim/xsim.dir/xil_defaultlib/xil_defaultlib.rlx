@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/Users/jimmy/Documents/VivadoProjects/CPE523_finalProject/CPE523_finalProject.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/jimmy/Documents/VivadoProjects/CPE523_finalProject/CPE523_finalProject.srcs/sim_1/new/TB_fourBitRCA.sv,1764819729,systemVerilog,,,,TB_fourBitRCA,,uvm,,,,,,
+C:/Users/jimmy/Documents/VivadoProjects/CPE523_finalProject/CPE523_finalProject.srcs/sim_1/new/TB_vedicMultiplier.sv,1764816980,systemVerilog,,,,TB_vedicMultiplier,,uvm,,,,,,
+C:/Users/jimmy/Documents/VivadoProjects/CPE523_finalProject/CPE523_finalProject.srcs/sources_1/new/fourBitRCA.sv,1764820666,systemVerilog,,C:/Users/jimmy/Documents/VivadoProjects/CPE523_finalProject/CPE523_finalProject.srcs/sources_1/new/halfAdder.sv,,fourBitRCA,,uvm,,,,,,
+C:/Users/jimmy/Documents/VivadoProjects/CPE523_finalProject/CPE523_finalProject.srcs/sources_1/new/halfAdder.sv,1764820274,systemVerilog,,C:/Users/jimmy/Documents/VivadoProjects/CPE523_finalProject/CPE523_finalProject.srcs/sim_1/new/TB_fourBitRCA.sv,,halfAdder,,uvm,,,,,,
+C:/Users/jimmy/Documents/VivadoProjects/CPE523_finalProject/CPE523_finalProject.srcs/sources_1/new/vedicMultiplier.sv,1764815896,systemVerilog,,C:/Users/jimmy/Documents/VivadoProjects/CPE523_finalProject/CPE523_finalProject.srcs/sim_1/new/TB_vedicMultiplier.sv,,vedicMultiplier,,uvm,,,,,,

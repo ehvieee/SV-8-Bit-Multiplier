@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../CPE523_finalProject.srcs/sources_1/new/fourBitRCA.sv" \
+"../../../../CPE523_finalProject.srcs/sources_1/new/halfAdder.sv" \
+"../../../../CPE523_finalProject.srcs/sim_1/new/TB_fourBitRCA.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
