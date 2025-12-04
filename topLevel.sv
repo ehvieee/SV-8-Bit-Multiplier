@@ -1,15 +1,15 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
-// Engineer: Jimmy Wen
+// Engineer: 
 // 
-// Create Date: 12/03/2025 06:28:32 PM
+// Create Date: 12/03/2025 11:37:09 PM
 // Design Name: 
-// Module Name: halfAdder
+// Module Name: topLevel
 // Project Name: 
 // Target Devices: 
 // Tool Versions: 
-// Description: single bit half adder
+// Description: 
 // 
 // Dependencies: 
 // 
@@ -20,17 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module halfAdder(
-    input logic A,
-    input logic B,
-    input logic Cin,
-    output logic S,
-    output logic Cout
+module topLevel(
+
     );
-    
-    always_comb begin
-        S = A ^ B ^ Cin;
-        Cout = (A & B) | (Cin & A) | (Cin & B);
-    end
-    
 endmodule

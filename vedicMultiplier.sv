@@ -40,16 +40,18 @@ module vedicMultiplier(
     halfAdder adder1(
         .A(a1b0),
         .B(a0b1),
+        .Cin(1'b0),
         .S(Out[1]),
-        .C(c1)
+        .Cout(c1)
     );
     
     // add c1 + a1b1 (computes bits 2 and 3 of multiplier)
     halfAdder adder2(
         .A(a1b1),
         .B(c1),
+        .Cin(1'b0),
         .S(Out[2]),
-        .C(Out[3])
+        .Cout(Out[3])
     );
     
 endmodule
