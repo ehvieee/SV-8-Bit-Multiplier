@@ -21,7 +21,6 @@
 
 
 module eightBitMultiplier(
-    input logic CLK,
     input logic [3:0] A,
     input logic [3:0] B,
     output logic [7:0] Out,
@@ -81,7 +80,7 @@ module eightBitMultiplier(
     fourBitRCA adder2(
         .A({2'b00, multOut1[3:2]}),
         .B(addOut1),
-        .Cin(cOut1),
+        .Cin(1'b0),
         .S(addOut2),
         .Cout(cOut2)
     );
@@ -90,8 +89,8 @@ module eightBitMultiplier(
     logic cOut3;
     fourBitRCA adder3(
         .A(multOut4),
-        .B({cOut1, 1'b0, addOut2[3], addOut2[2]}),
-        .Cin(cOut2),
+        .B({1'b0, (cOut1 | cOut2), addOut2[3], addOut2[2]}),
+        .Cin(1'b0),
         .S(addOut3),
         .Cout(cOut3)
     );
