@@ -31,6 +31,7 @@ always begin
     TB_CLK = 1'b1;
     #5;
     TB_CLK = 1'b0;
+    #5;
 end
 
 eightBitMultiplier DUT(
@@ -50,45 +51,11 @@ initial begin
             #10;
         end
     end
+    
+    TB_A = 0;
+    TB_B = 0;
+    #10;
+    
 end
-
-//initial begin
-//    TB_A = 0;
-//    TB_B = 0;
-//    #10;
-    
-//    TB_A = 10;
-//    TB_B = 1;
-//    #10;
-    
-//    TB_A = 1;
-//    TB_B = 10;
-//    #10;
-    
-//    TB_A = 10;
-//    TB_B = 10;
-//    #10;
-    
-//    TB_A = 12;
-//    TB_B = 11;
-//    #10;
-    
-//    TB_A = 6;
-//    TB_B = 6;
-//    #10;
-    
-//    TB_A = 15;
-//    TB_B = 0;
-//    #10;
-    
-//    TB_A = 0;
-//    TB_B = 15;
-//    #10;
-    
-//    TB_A = 15;
-//    TB_B = 15;
-//    #10;
-
-//end
 
 endmodule
